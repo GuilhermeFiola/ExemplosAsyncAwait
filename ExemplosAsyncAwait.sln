@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto1", "Projeto1\Projeto1.csproj", "{E50ACDE3-3537-4239-9CDE-5B0C78AB6C44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caso1", "Caso1\Caso1.csproj", "{E50ACDE3-3537-4239-9CDE-5B0C78AB6C44}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto2", "Projeto2\Projeto2.csproj", "{61297729-0354-493F-9A35-952103C46262}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caso2", "Caso2\Caso2.csproj", "{61297729-0354-493F-9A35-952103C46262}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto3", "Projeto3\Projeto3.csproj", "{72B44714-4C46-4804-9428-9C80CDFA5AA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caso3", "Caso3\Caso3.csproj", "{72B44714-4C46-4804-9428-9C80CDFA5AA2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto4", "Projeto4\Projeto4.csproj", "{9EB5D817-F8E6-40EF-9A2A-D0BF905BC656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caso4", "Caso4\Caso4.csproj", "{9EB5D817-F8E6-40EF-9A2A-D0BF905BC656}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto5", "Projeto5\Projeto5.csproj", "{93692CE0-BE4D-42D3-A892-F93025D94B7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caso5", "Caso5\Caso5.csproj", "{93692CE0-BE4D-42D3-A892-F93025D94B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto6", "Projeto6\Projeto6.csproj", "{14A0BA52-FC0F-4B5D-8AA4-FA4FEA288431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caso6", "Caso6\Caso6.csproj", "{14A0BA52-FC0F-4B5D-8AA4-FA4FEA288431}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{1B5D6444-CA0C-4712-82CC-2FC78D4D9690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8DB53CA5-BB0A-449E-9C3F-787827BE6341}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,10 @@ Global
 		{14A0BA52-FC0F-4B5D-8AA4-FA4FEA288431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14A0BA52-FC0F-4B5D-8AA4-FA4FEA288431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14A0BA52-FC0F-4B5D-8AA4-FA4FEA288431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5D6444-CA0C-4712-82CC-2FC78D4D9690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5D6444-CA0C-4712-82CC-2FC78D4D9690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5D6444-CA0C-4712-82CC-2FC78D4D9690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5D6444-CA0C-4712-82CC-2FC78D4D9690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
